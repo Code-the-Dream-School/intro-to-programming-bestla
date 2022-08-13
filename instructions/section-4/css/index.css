@@ -1,0 +1,109 @@
+body {padding: 10px;
+     font-family: 'Ultra', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 15px;
+     background-color: rgb(244, 243, 169);}
+              
+div {border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 10px;
+     width: 15%;
+     font-size: 12px;
+     margin: 10px;}
+
+input, textarea { width: 100%;
+                  padding: 8px 10px;
+                  margin: 8px 0;
+                  display: inline-block ;
+                  border: 1px solid #ccc;
+                  border-radius: 5px;
+                  box-sizing: border-box;}
+
+div button {width: 100%;
+            padding: 14px 20px;
+            margin: 8px 0;
+            display: inline-block ;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #4caf50;
+            color: white;}
+
+div button:hover{
+                 background-color: #39813c;
+}
+ul {list-style: square;
+    margin: 10px;}
+    
+#skills ul li {background-color: #d3f5d4;
+               padding: 5px 10px;
+               margin-left: 10px;
+               margin-right: auto;
+               box-shadow: 0 8px 16px 0
+                           rgba(0,0,0,0.2), 0 6px 20px 0
+                           rgba(0,0,0,0.19) ;}
+
+#skills {width: 30%;}
+
+#messages button {
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block ;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e0e9e0;
+    color: rgb(59, 56, 56);}
+
+#messages button:hover{
+                        background-color: #b3bab3;
+    }
+
+a:hover {background-color: rgb(207, 233, 160);}
+a {text-decoration: none;
+       color:#02bd08}
+
+#messages a {font-size: 14px;
+             color: brown;
+            font-weight: bold;}
+
+span {font-size: 12px;
+      color: brown}
+
+h4,h1,h2,h3 {text-shadow: 0 2px white, 0 3px #777;
+             text-transform: uppercase;
+             font-family: 'Ultra', Tahoma, Geneva, Verdana, sans-serif;
+             margin-left: 20px;}
+
+#about-me p {border: 2px solid rgb(96, 249, 96);
+             background-color: #aaf5ad; 
+            border-radius: 10px;  }
+
+footer {width: 100%;
+        background-color:#ccc ;
+        margin-left: auto;
+        margin-right: auto;
+        color:rgb(236, 140, 16)} 
+
+footer p {text-align: center;
+          color:rgb(236, 140, 16);
+          font-size: 14px;
+          padding: 5px;
+          margin-bottom: 0;
+        }
+header p {text-align: center;
+          background-color:rgb(240, 231, 173);
+          font-size: 18px;
+          padding: 5px;
+          color:rgb(136, 86, 21);
+          font-weight: bold;
+          border: 2px solid rgb(227, 202, 185);
+          border-radius: 10px;
+        width: 65%;
+        margin-left: auto;
+        margin-right:auto;
+        box-shadow: 0 8px 16px 0
+        rgba(0,0,0,0.2), 0 6px 20px 0
+        rgba(0,0,0,0.19) ;}}
+
+p {padding: 10px;
+   margin-left: 15px;}
