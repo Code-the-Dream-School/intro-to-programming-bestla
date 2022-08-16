@@ -1,0 +1,124 @@
+/*centralized header and about section*/
+header{
+    font-size:1.25rem;
+    text-align: center;
+    background-color:#F0A160;
+    font-weight: bold;
+    margin: -30px -10px 20px;
+}
+#about{
+    text-align: center;
+    font-weight:500;
+    margin: 0px 10px 50px;
+}
+/*change font type, size, and color of body*/
+body{
+    background-color: #F6F0E7;
+    color : #050c12;
+    font-family: "Poppins", "PT Sans", Calibri, Tahoma, sans-serif;  
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*create margin and padding for each section*/
+section{
+    margin: 0px 10px 20px;
+    padding: 0px;
+   
+}
+/*style all headings*/
+h1, h2{
+    font-size: 2em;
+    font-weight:bold;
+    color:black;
+}
+/*styled blocks experience section*/
+#experience-section, #skills{
+    border: 3px dotted #F0C9B3;
+    font-size: 1.1rem; 
+    margin: 0px 10px 50px;
+    padding: 5px;
+}
+/*styled blocks skills section*/
+#skills{
+    background: #F7E7CE; 
+}
+.skills-list{
+    font-weight: bold;
+}
+/*styled connect section */
+#connect-section{
+    margin: 0px 10px 50px;
+}
+#connect-section p{
+    margin: 0px 0px 10px;
+}
+a:link{
+    color: #0a5aca;
+    text-decoration: none;
+}
+  a:visited{
+    color: #2F5061;
+}
+  a:hover{
+    text-decoration: underline;
+}
+/*style the form elements*/
+.form-section{
+    color: #BA8D80;
+    font-weight:800;
+}
+.input-area{
+    font-family: "Poppins", "PT Sans", Calibri, Tahoma, sans-serif;  
+    font-size: medium;
+    font-weight:600;
+    width: 17%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.submit-button, button{
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #e7805d;
+    border: 2.5px outset #FFF3D9;
+    padding:3.5px;
+    cursor: pointer;
+}
+/*styled blocks message list*/
+#messages, .visitor-message{
+    font-weight: bold; 
+}
+.visitor-message{
+    font-size: 1em;
+    background-color: #f9dab0;
+    padding:0px;
+    margin:5px;  
+}
+/*styled footer*/
+footer{
+    background-color:#e4dfdb;
+    color:#132df5;
+    font-style:oblique;
+    margin:100px -10px -50px; 
+    text-indent: 0.2cm; 
+}
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+    body {
+      background-color:#E5D4CD;
+    }
+}
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    body {
+      background-color:#839573;
+      color: #192E41;
+    }
+}
+
