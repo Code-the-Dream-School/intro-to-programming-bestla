@@ -1,0 +1,208 @@
+/*Body font and design */
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Playfair Display', serif;
+    background-color: ghostwhite;
+    color: black;
+}
+ 
+/*Section spacing*/
+section {
+    padding: 15px;
+    margin: 10px;
+}
+ 
+/*Level 1 headers font sizes and weights*/
+h1{
+    font-size: x-large;
+    font-weight: light;
+}
+ 
+/*Leavel 2 headers font sizes and weights*/
+h2{
+    font-size: large;
+    font-weight: lighter;
+}
+ 
+/*Experience styling*/
+#experience {
+    background-color: lavenderblush;
+    border-radius: 20px;
+    padding: 25px 30px;
+    margin: 10px;
+}
+ 
+/*Skills styling*/
+#skill {
+    background-color: gainsboro;    
+    border-radius: 20px;
+    padding: 25px 30px;
+    margin: 20px;
+}
+ 
+/*Submit button styling*/
+button{
+  background-color: rgb(122, 130, 141);
+  border: none;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+ 
+/*Connect styling*/
+#connect{
+    padding: 25px 30px;
+    margin: 20px;
+}
+ 
+/*Unordered list bullet points*/
+#skill ul{
+    list-style-type: upper-roman;
+}
+ 
+/*Unordered list bullet points*/
+#experience ul{
+    list-style-type: circle;
+}
+ 
+/*Unordered list bullet points*/
+#connect ul{
+    list-style-type: square;
+}
+ 
+/*Main nav styling*/
+#main-nav{
+    float: center;
+    overflow: hidden;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ 
+/*Message styling*/
+#message{
+    padding: 2px;
+    margin: 10px 240px;
+    text-align: center;
+    font-size: medium;
+    border-style: dotted;
+    border-radius: 15px;
+    border-color: rgb(66, 126, 123);
+    text-decoration:underline;
+}
+ 
+/*Message border*/
+#messages{
+    text-align: left;
+    border-style: groove;
+    border-color: rgb(144, 204, 171);
+    justify-content: space-between;
+    margin: 10px 250px;
+    padding: 50px;
+}
+ 
+/*Message text style*/
+#message_text{
+    text-decoration: underline;
+}
+ 
+/*Unordered list bullet points*/
+#message ul{
+    list-style-type: square;
+    text-align: center;
+}
+ 
+/*Footer spacing between the body*/
+footer{
+    margin-top: 60px;
+    border-top: 20px;
+}
+ 
+/*Media queries*/
+@media all and (max-width: 800px){
+    body{
+        color: black;
+        font-size: large;
+    }
+}
+ 
+/* lesson-4-5 */
+ 
+/* Blocks inside the navigation menu */
+#main-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  /* Color of blocks on mouse-over */
+  #main-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ 
+  /* Add a color to the active/current link */
+  #main-nav a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+ 
+  /*Top button*/
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(102, 148, 127);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+ 
+  #myBtn:hover {
+    background-color: rgb(38, 61, 55);
+  }
+ 
+  form {
+    padding: 20px;
+    margin: 10px;
+  }
+ 
+/*Input cells on message*/
+  #message input {
+    width: 15%;
+    height: 25px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    border: 4px;
+    border-radius: 2px;
+  }
+ 
+  #message textarea{
+    width: 25%;
+    height: 70px;
+    padding: 15px 20px;
+  }
+ 
+  #experience ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
