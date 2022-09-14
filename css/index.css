@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    scroll-margin-top: 9rem;
+    scroll-behavior: smooth;
+}
+/*change font type, size, and color of body*/
+body{
+    /*background-color: #FFFEF4;*/
+    font-size: 1.5rem;  
+    margin: 0;    
+}
+body,
+.input-area,
+button[type=submit], 
+button{
+    color : #231B12;
+    font-family: "Averia Libre", Calibri, Tahoma, sans-serif; 
+}
+section{
+    margin: 7.5% 10% 12%;
+  
+}
+img{
+    display: block;
+    float: left;
+}
+/*style fonts*/
+.item-exp,
+.skills-list{
+    color: #cccccc;
+}
+/* hero background image */
+.hero-image {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/SF-Golden\ Gate\ .jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4rem;
+    text-transform: none;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F8F1E5;
+}
+/*header and about section*/
+.main-header{
+    background-color:#FBE8A6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.name{
+    font-size:1.9rem;
+    font-weight: bold;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#about{
+    font-weight: 300; 
+}
+.about-section{
+    margin: 15px 10px 50px;
+    padding: 30px; 
+    text-align: justify;
+}
+.main-nav a, 
+.main-header, 
+.hero-text,
+footer, 
+#about, 
+#experience, 
+#skills, 
+#projects, 
+#leave-message,
+#messages{
+    text-align: center;
+}
+/*navigation*/
+.main-nav{
+    margin-top: 5px;
+}
+.name,
+.main-nav a{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.main-nav a{
+    font-size: .95em;  
+}
+.main-nav a:hover, 
+a:link{
+    color:#0a5aca;
+    text-decoration: none;
+}
+.main-nav a:hover, 
+h1, 
+h2, 
+button:hover, 
+.projects-section:hover{
+    text-transform: uppercase;
+}
+
+/*style all headings*/
+h1, 
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+h1, 
+h2, 
+footer{
+    font-family: "Chelsea Market", Tahoma, sans-serif;
+}
+/*styled blocks section*/
+.exp-section, .skills-list{ 
+    margin: 50px 10px 50px;
+    padding: 30px; 
+    justify-content: space-around;     
+}
+.exp-section, 
+.skills-list,
+.visitor-message li{
+    gap: 15px;
+}    
+.item-exp, 
+.skills-list li{
+	background:#303C6C;
+    border-radius: 5px;
+	margin: 10px auto;
+    box-shadow: 0 1.7px 0 0 rgba(0,0,0,0.1);
+    align-items: justify;
+    font-size: 1.4rem; 
+    text-align: center; 
+}
+.item-exp{
+    padding: 20px;
+}
+.skills-list li{
+    padding: 10px;
+}
+#projects li::before{
+    content: "May-September 2022 : ";
+}
+.projects-section{
+    padding: 40px;
+    margin: 50px 10px;
+}
+a:visited{
+    color: #6a3e87;
+    font-weight: 600;
+}
+a:hover, 
+.projects-section a:link{
+    text-decoration: underline;
+}
+/*style the form elements*/
+.input-area{
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    resize: vertical;
+} 
+.form-section{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    /*color: #cccccc;*/
+    font-weight: 800;
+} 
+
+button[type=submit], 
+button{
+    background-color: #392a58;
+    color:#f9f7f4;
+    cursor: pointer;
+    border: none;
+    font-size:1.2rem;
+}
+button[type=submit]{   
+    padding: 12px 20px;
+    border-radius: 4px;
+    float: right;
+}
+button:hover{
+    background-color: #ACD0C0;
+    color: #2A2922;
+}
+button{
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+.container{
+    border-radius: 5px;
+    background-color: #f0eeee;
+    padding: 30px;
+    margin: 80px 10px 100px;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+/*styled blocks message list*/
+.visitor-message{
+    padding: 10px;
+    margin: 80px 10px;
+    border: 1px dotted #525252;
+    justify-content: space-around;
+}
+.visitor-message li{
+    border: 2px solid #e5e5e4;
+    border-radius: 3px;
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 10px;
+    text-align: left;
+}
+/*styled footer*/
+footer{
+    margin-top: 1em;
+    background: #0b0b0b;
+    color: #f0eeee;
+    padding: 0.4rem;
+}
+.contact-section{
+    align-items: center;
+    justify-content: center;  
+}
+footer a{
+	font-size: 26px;
+    margin: 0 10px 0 0;
+    width: 50px;;   	
+}
+footer a:hover{
+    background-color: #f8e067;
+}
+footer a:visited{
+    color: #0a5aca;
+}
+
