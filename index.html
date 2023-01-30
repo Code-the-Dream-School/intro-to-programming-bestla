@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edgar Ruiz resume & projects</title>
+        <meta charset="UTF-8">
+        <meta name="autor" content="Edgar Ruiz">
+        <meta name="keywords" content="edgar ruiz, info, projects, tech, coding, javascript, html, css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="js/ajax.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="header_logo">
+                    <ul class="nav_menu">
+                        <li class="menu_item">
+                            <a href="#about">Edgar Ruiz</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header_menu">
+                    <ul class="nav_menu">
+                        <li class="menu_item">
+                            <a href="#about">Home</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#midle_page">Education</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#midle_page">Skills</a>
+                        </li>                 
+                        <li class="menu_item">
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#message_form">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <div>
+                    <h1>
+                        Hi, I'm Edgar<br>
+                        <span>Web developer</span>
+
+                    </h1>
+                    <p>Professional with more than 5 years of experience in product design, for electrical and power control sector, background in electronic design and microcomputer fundamental. Results-oriented, bilingual, with good interpersonal skills, and passionate about new challenges. Currently in process of reshaping my career focus on software development.</p>
+                </div>
+                <div>
+                    <img src="images/edgar_photo.png" alt="edgar photo">
+                </div>
+            </section>
+
+            <section id="midle_page">
+                <h1 id="midle_page_education_tittle">Education</h1>
+
+                <ul id="midle_page_education_information">
+                    <li class="education_year">2022 - 2022</li>
+                    <li class="education_empty"></li>
+                    <li class="education_program">Coding Bootcamp<br>
+                        <span class="education_institution">Code The Dream</span>
+                    </li>
+
+                    <li class="education_year">2019 - 2020</li>
+                    <li class="education_empty"></li>
+                    <li class="education_program">Master of business administration<br>
+                        Concentration in Agroindustry<br>
+                        <span class="education_institution">ENAE Business School</span>
+                    </li>
+
+                    <li class="education_year">2013 - 2018</li>
+                    <li class="education_empty"></li>
+                    <li class="education_program">Bachelor in business<br>
+                        <span class="education_institution">UNAPEC</span>
+                    </li>
+
+                    <li class="education_year">2013 - 2013</li>
+                    <li class="education_empty"></li>
+                    <li class="education_program">Engineering Drawing Requirements<br>
+                        Fundamental of GD&T<br>
+                        <span class="education_institution">Effective Training Inc.</span>
+                    </li>
+                    
+                    <li class="education_year">2008 - 2012</li>
+                    <li class="education_empty"></li>
+                    <li class="education_program">Electronic & microcomputer technician<br>
+                        <span class="education_institution">ITESA</span>
+                    </li>
+                </ul>
+
+                <h1  id="midle_page_skills_tittle">Skills</h1>
+
+                <div id="midle_page_skills_items">
+
+                    <h1  id="web_development_skills_tittle">Web Development</h1>
+
+                    <ul id="web_development_skills_items">
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>DOM</li>
+                    </ul>
+
+                    <h1  id="engineering_skills_tittle">Engineering Skills</h1>
+
+                    <ul id="engineering_skills_items">
+                        <li>Electronic circuit design</li>
+                        <li>PCB layout design</li>
+                        <li>3D mechanical modeling</li>
+                        <li>Mechanical drawing standard</li>
+                        <li>PLM engineering document control</li>
+                    </ul>
+                </div>              
+            </section>
+
+            <section id="projects">
+                <h1>Projects</h1>
+                <ul>
+
+                </ul>
+            </section>
+
+            <section id="experience">
+
+                <h1>Experience</h1>
+
+                <h2>Project Executive</h2>
+                <h3>MARDOM</h3>
+                <p>Managed projects portfolio. 
+                    | Evaluated commercial and financial indicators. 
+                    | Performed international logistics operations. 
+                    | Developed strategies increase client leads. 
+                    | Assisted with closing negotiation. 
+                    | Increased market share in specialized projects for Industrial & commercial cold rooms.</p>
+                
+                <h2>Master Designer Engr.</h2>
+                <h3>EATON CORPORATION</h3>
+                <p>Developed digital CAD models and 3D prototypes. 
+                    | Ensured the structure and composition of all Enovia PLM system BOM products 
+                    | Promoted the closing and implementation of ECO / ECR change requests. 
+                    | Provided technical evaluation of proposals and prototypes for packaging materials. 
+                    | Validated the correct implementation of standards and drafting processes for engineering documentation under ASME Y14.5M standards. 
+                    | Created and captured new ideas for improvement. 
+                    | Collaborated in the 5s, Lean, EHS operational processes. 
+                    | Supported internal audits ISO 9001: 2015.</p>
+            </section>
+
+            <section id="message_form">
+                <h1>Leave a message</h1>
+                <form name="leave_message">
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" required="true"><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="text" name="email" required="true"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea type="text" name="message" required="true"></textarea><br><br>
+
+                    <button type="submit">Submit</button><br><br>
+                </form>
+            </section>
+
+            <section id="messages">
+                <h2>Messages</h2>
+                <!--<input type="checkbox" id="checkbox"></input>
+                <label for="checkbox">Show messages</label>-->
+                <ul>
+
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>

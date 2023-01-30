@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+/* ---------- NAVIGATION BAR & MENU ---------- */
+
+header,
+nav {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 12vh;
+	position: fixed;
+	z-index: 1000;
+	background: rgb(99, 0, 226);
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.header_logo,
+.header_menu,
+.nav_menu,
+.menu_item {
+	padding: 1rem;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.menu_item a {
+	color: white;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.menu_item a:after{
+	content: "";
+	position: relative;
+	width: 0; 
+	height: 2px;
+	display: block;
+	margin-top: 5px;
+	right: 0;
+	background: white;
+	transition: width .2s ease;
+}
+
+.menu_item a:hover:after{
+	width: 100%;
+	left: 0;
+	background: white;
+}
+
+/* ---------- ABOUT SECCTION & PICTURE ---------- */
+
+#about {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	/*
+    background: url("//images.ctfassets.net/rz1oowkt5gyp/7lTGeXbBRNRLaVk2MdBjtJ/99c266ed4cb8cc63bd0c388071f01ff6/white-wave-bg.svg") center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
+    */
+	background-blend-mode: normal, normal;
+    color: rgb(255, 255, 255);
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;	
+}
+
+#about div {
+    color: rgb(255, 255, 255);
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;	
+}
+
+#about div h1 {
+	padding: 1rem 5rem;
+	margin: 0;
+	color: orange;
+	font-size: 4rem;
+	font-weight: bold;
+}
+#about div h1 span {
+	color: lightgray;
+}
+
+#about div p {
+	padding: 1rem 1rem;
+	margin: 0;
+	width: 30vw;
+	color: lightgray;
+	font-size: 1.3rem;
+	font-weight: normal;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#about img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	background: white;
+}
+
+#midle_page {
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	background: white;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: auto auto;
+	grid-template-columns: 50vw 50vw;
+	justify-content: stretch;
+	align-content: stretch;
+	justify-items: stretch;
+	align-items: stretch;
+}
+
+#midle_page_education_tittle, 
+#midle_page_skills_tittle {
+	padding: 0;
+	margin: 0;
+	background: red;
+}
+
+/* ---------- EDUCATION ---------- */
+
+#midle_page_education_information {
+	padding: 0;
+	margin: 0;
+	background: lightgray;
+	display: grid;
+	grid-auto-flow: row;
+	grid-template-rows: repeat(5, auto);
+	grid-template-columns: 25% 25% auto;	
+	justify-content: stretch;
+	align-content: stretch;	
+	justify-items: stretch;
+	align-items: stretch;
+}
+
+.education_year {
+	list-style: none;
+	background: green;
+	justify-self: center;
+}
+
+.education_empty {
+	list-style: none;
+	background: purple;
+	width: 6px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	justify-self: center;
+}
+
+.education_program {
+	list-style: none;
+	color: black;
+	background: blue;
+}
+
+.education_institution {
+	color: gray;
+}
+
+/* ---------- SKILLS ---------- */
+
+#midle_page_skills_items {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background: lightgray;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: 0.5fr 1fr 0.5fr 1fr;
+	grid-template-columns: 1fr;
+}
+
+#web_development_skills_tittle,
+#engineering_skills_tittle {
+	justify-self: center;
+	align-self: center;
+}
+
+#web_development_skills_items,
+#engineering_skills_items {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: lightblue;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: start;
+	justify-items: start;
+	align-items: start;
+}
+
+/* ---------- EXPERIENCE ---------- */
+
+#experience {
+	width: 100vw;
+	height: 100wh;
+	padding: 0;
+	margin: 0;
+	background: lightblue;
+}
+
+/* ---------- CONTACT ---------- */
+
+#message_form {
+	width: 100vw;
+	height: 50wh;
+	padding: 0;
+	margin: 0;
+	background: lightcoral;
+}
